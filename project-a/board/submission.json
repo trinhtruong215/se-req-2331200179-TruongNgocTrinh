@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-08-10T06:18:52.384Z",
+  "groups": [
+    {
+      "id": "3154813e-c9fe-4852-9cb8-e8ee8747b63e",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "cc3b8f98-6354-4a77-b61b-14a0a47b566f",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "e2c94520-040f-42a8-99c4-4111c38693a2",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: “The system needs to stop them from even asking.”\nWhy vague: It does not specify how the system should “stop” students (block emails, hide options, or show warnings).",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
