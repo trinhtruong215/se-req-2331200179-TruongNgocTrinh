@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T06:25:33.708Z",
+  "savedAt": "2026-08-17T06:31:06.208Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -22,6 +22,16 @@
       "id": "bd25942d-3781-43a4-b1ba-32aed895bdf2",
       "title": "US001 (Student)",
       "description": "As a Student, I want to search for available courses by keyword, so that I can quickly find classes that match my interests.\n\nAcceptance Criteria:\n- Given a keyword, the system returns a list of courses containing that keyword in title or description.\n- Search results must display course name, code, and schedule.\n- If no courses match, the system shows “No results found.”",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "39fc4dbd-ace8-4f92-a1e5-5572340f0e29",
+      "title": "US002 (Student)",
+      "description": "As a Student, I want to drag and drop courses into my calendar, so that I can visualize my weekly schedule.\n\nAcceptance Criteria:\n- Dragging a course into the calendar displays its time slot.\n- If a conflict exists, the system highlights the overlap in red.\n- Removing a course from the calendar clears its time slot.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
