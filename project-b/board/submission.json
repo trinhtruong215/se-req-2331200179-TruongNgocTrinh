@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T06:10:35.593Z",
+  "savedAt": "2026-08-17T06:11:54.225Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "Requirement: “The app should force users to select a safe zone before they can chat.” Why vague: The requirement does not specify what qualifies as a safe zone. It is unclear whether only official campus locations are allowed, whether zones can be updated dynamically, or if students can propose new ones. Without clarification, developers cannot determine how to enforce this restriction.\n",
-    "ambiguity2": "",
+    "ambiguity2": "Requirement: “The app should allow barcode scanning to list textbooks.” Why vague: The requirement does not define the scope of barcode support. It is unclear whether the system must handle only ISBN barcodes, other formats, or international variations. It also does not specify how errors should be handled if a barcode is damaged or unrecognized. Without clarification, developers cannot design the scanning feature properly.\n",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
