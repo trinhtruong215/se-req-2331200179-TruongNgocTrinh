@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-08-17T06:16:16.326Z",
+  "groups": [
+    {
+      "id": "91fde480-8906-4a67-a17f-be6098052199",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "b650c698-c862-4e98-859d-3496904ff963",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: “The kitchen needs a screen that shows orders as they come in.”\nWhy vague: The requirement does not specify how detailed the order display should be. It is unclear whether the screen must show only item names, preparation instructions, or customer details. Without clarification, developers cannot design the kitchen interface properly.\n",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
