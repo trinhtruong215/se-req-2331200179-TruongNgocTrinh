@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T07:21:40.194Z",
+  "savedAt": "2026-08-17T07:23:48.774Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -22,6 +22,16 @@
       "id": "3beb5a7e-c601-42a5-ae2f-ad2504b12344",
       "title": "US001 (Student)",
       "description": "As a Student, I want to order food on my phone while walking from class, so that I can skip the cafeteria line.\nAcceptance Criteria:\n- Student can browse menu and place order via mobile.\n- System generates order number and estimated pickup time.\n- Confirmation message is displayed after successful order.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "5cceafac-6ce4-4876-a87f-5f6051f7c6f8",
+      "title": "US002 (Chef/Staff)",
+      "description": "As a Chef, I want to mark an item as Sold Out instantly, so that students stop ordering unavailable food.\nAcceptance Criteria:\n- Staff can mark items as unavailable in real time.\n- Changes are reflected immediately in student view.\n- System logs all updates with timestamp and staff ID.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
