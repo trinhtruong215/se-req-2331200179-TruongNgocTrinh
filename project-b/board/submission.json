@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T07:10:36.764Z",
+  "savedAt": "2026-08-17T07:11:16.248Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -32,6 +32,16 @@
       "id": "49584cd1-c09a-4f18-b773-3befe536cab0",
       "title": "US002 (Student)",
       "description": "As a Student, I want to bookmark favorite campus events, so that I can quickly access them later.\nAcceptance Criteria:\n- Student can mark/unmark events as favorites.\n- Favorites list is accessible from dashboard.\n- Removing a favorite updates the list immediately.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "15e08dd3-6216-41ad-a2f4-42587eb14cf1",
+      "title": "US003 (Student)",
+      "description": "As a Student, I want to receive notifications for upcoming events I registered for, so that I don’t miss them.\nAcceptance Criteria:\n- Notification is sent 24 hours before event.\n- Notification includes event name, time, and location.\n- Student can enable/disable notifications.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
