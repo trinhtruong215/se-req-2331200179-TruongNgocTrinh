@@ -1,29 +1,29 @@
 {
-  "savedAt": "2026-08-17T04:47:03.808Z",
+  "savedAt": "2026-08-17T06:00:27.809Z",
   "groups": [
     {
-      "id": "3154813e-c9fe-4852-9cb8-e8ee8747b63e",
+      "id": "91fde480-8906-4a67-a17f-be6098052199",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "cc3b8f98-6354-4a77-b61b-14a0a47b566f",
+      "id": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "e2c94520-040f-42a8-99c4-4111c38693a2",
+      "id": "b650c698-c862-4e98-859d-3496904ff963",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [],
   "analysis": {
-    "ambiguity1": "Requirement: \"Warn me if I am choosing a class that starts at 8:00 AM.\" Why vague: The requirement does not clearly define how the warning should work. It is unclear whether only classes at exactly 8:00 AM should trigger the warning or whether earlier classes should also trigger it.",
-    "ambiguity2": "Requirement: “Drag and drop classes into a calendar to see if they fit.”  Why vague: The requirement does not clearly define what “fit” means. It could mean checking only for schedule conflicts, but it might also include verifying prerequisites, course availability, or other academic constraints. Without clarification, developers cannot determine the exact scope of functionality to implement.",
-    "conflictSolution": "There is a conflict between the Registrar and the Head of Advising. The Registrar requires that students cannot add full classes to their roadmap, while the Head of Advising wants students to plan courses years ahead even when availability is unknown. The resolution is to allow students to add future courses with a status label such as 'Availability unknown.' When live data is available, the system updates the status. If a course is full, the student cannot enroll in it, but it can remain in the roadmap for planning purposes.",
-    "nfr1": "Security: Protect student data and ensure privacy by preventing access to other students’ schedules and logging advisor overrides.",
-    "nfr2": "Usability: Provide an intuitive, user-friendly interface with drag-and-drop functionality for planning classes.",
-    "nfr3": "Performance/Scalability: Ensure real-time responsiveness when linking to the live database and support long-term planning across multiple years."
+    "ambiguity1": "Requirement: “The system should allow advisors to override student choices.” Why vague: The requirement does not specify the scope of the override. Advisors might be able to change all of a student’s course selections or only certain ones. It is also unclear whether the system should record these overrides for accountability. Without clarification, developers cannot determine the exact scope of functionality to implement.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }
