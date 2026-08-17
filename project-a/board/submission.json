@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T04:30:10.604Z",
+  "savedAt": "2026-08-17T04:36:53.966Z",
   "groups": [
     {
       "id": "3154813e-c9fe-4852-9cb8-e8ee8747b63e",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "Requirement: \"Warn me if I am choosing a class that starts at 8:00 AM.\" Why vague: The requirement does not clearly define how the warning should work. It is unclear whether only classes at exactly 8:00 AM should trigger the warning or whether earlier classes should also trigger it.",
-    "ambiguity2": "",
+    "ambiguity2": "Requirement: “Drag and drop classes into a calendar to see if they fit.”  Why vague: The requirement does not clearly define what “fit” means. It could mean checking only for schedule conflicts, but it might also include verifying prerequisites, course availability, or other academic constraints. Without clarification, developers cannot determine the exact scope of functionality to implement.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
