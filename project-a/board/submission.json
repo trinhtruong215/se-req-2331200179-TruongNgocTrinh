@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T06:00:27.809Z",
+  "savedAt": "2026-08-17T06:01:35.440Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "Requirement: “The system should allow advisors to override student choices.” Why vague: The requirement does not specify the scope of the override. Advisors might be able to change all of a student’s course selections or only certain ones. It is also unclear whether the system should record these overrides for accountability. Without clarification, developers cannot determine the exact scope of functionality to implement.",
-    "ambiguity2": "",
+    "ambiguity2": "Requirement: “Drag and drop classes into a calendar to see if they fit.”  Why vague: The requirement does not clearly define what “fit” means. It could mean checking only for schedule conflicts, but it might also include verifying prerequisites, course availability, or other academic constraints. Without clarification, developers cannot determine the exact scope of functionality to implement.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
