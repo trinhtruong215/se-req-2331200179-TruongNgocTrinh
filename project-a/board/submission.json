@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-10T06:58:20.241Z",
+  "savedAt": "2026-08-17T04:30:10.604Z",
   "groups": [
     {
       "id": "3154813e-c9fe-4852-9cb8-e8ee8747b63e",
@@ -20,10 +20,10 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "Requirement: \"Warn me if I am choosing a class that starts at 8:00 AM.\" Why vague: The requirement does not clearly define how the warning should work. It is unclear whether only classes at exactly 8:00 AM should trigger the warning or whether earlier classes should also trigger it.",
-    "ambiguity2": "Requirement: \"Drag and drop classes into a calendar to see if they fit.\" Why vague: The requirement does not explain what \"fit\" means. It is unclear whether the system should only check for schedule conflicts or also check prerequisites, course availability, and other academic constraints.",
-    "conflictSolution": "Conflict: The Registrar wants students to be unable to add full classes, while the Head of Advising wants students to plan courses four years ahead even when availability is unknown. Resolution: Allow students to add future courses when availability is unknown and mark them as \"Availability unknown.\" Once live availability data is available, update the status. If the course is full, the student cannot enroll in it.",
-    "nfr1": "Security: The system must prevent students from accessing or viewing another student's schedule or sensitive academic data.",
-    "nfr2": "Auditability: The system must record every manual prerequisite override made by an advisor, including the advisor, student, course, time, and reason.",
-    "nfr3": "Performance: The system should retrieve current course availability information from the live database quickly enough for students to see up-to-date course status while building their roadmap."
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }
