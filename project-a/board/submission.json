@@ -22,8 +22,8 @@
     "ambiguity1": "Requirement: \"Warn me if I am choosing a class that starts at 8:00 AM.\" Why vague: The requirement does not clearly define how the warning should work. It is unclear whether only classes at exactly 8:00 AM should trigger the warning or whether earlier classes should also trigger it.",
     "ambiguity2": "Requirement: “Drag and drop classes into a calendar to see if they fit.”  Why vague: The requirement does not clearly define what “fit” means. It could mean checking only for schedule conflicts, but it might also include verifying prerequisites, course availability, or other academic constraints. Without clarification, developers cannot determine the exact scope of functionality to implement.",
     "conflictSolution": "There is a conflict between the Registrar and the Head of Advising. The Registrar requires that students cannot add full classes to their roadmap, while the Head of Advising wants students to plan courses years ahead even when availability is unknown. The resolution is to allow students to add future courses with a status label such as 'Availability unknown.' When live data is available, the system updates the status. If a course is full, the student cannot enroll in it, but it can remain in the roadmap for planning purposes.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Security: Protect student data and ensure privacy by preventing access to other students’ schedules and logging advisor overrides.",
+    "nfr2": "Usability: Provide an intuitive, user-friendly interface with drag-and-drop functionality for planning classes.",
+    "nfr3": "Performance/Scalability: Ensure real-time responsiveness when linking to the live database and support long-term planning across multiple years."
   }
 }
