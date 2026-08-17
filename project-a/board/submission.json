@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T06:35:18.778Z",
+  "savedAt": "2026-08-17T06:36:22.922Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -42,6 +42,16 @@
       "id": "827acb5c-7f48-4947-82ad-3c12439e1c9e",
       "title": "US003 (Student)",
       "description": "As a Student, I want to filter courses by prerequisites, so that I only see classes I am eligible to enroll in.\nAcceptance Criteria:\n-Filter option hides courses where prerequisites are not met.\n-Eligible courses remain visible.\n-The filter can be toggled on or off.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "574bdba2-f5e0-42bb-86de-59081df04163",
+      "title": "US004 (Administrator/Staff)",
+      "description": "As an Administrator, I want to override a student’s course selection, so that I can enforce institutional requirements.\nAcceptance Criteria:\n- Admin can view a student’s current schedule.\n- Admin can replace or remove a course.\n- The system logs the override action with timestamp and admin ID.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
