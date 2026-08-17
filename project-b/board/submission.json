@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T07:11:16.248Z",
+  "savedAt": "2026-08-17T07:12:10.000Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -42,6 +42,16 @@
       "id": "15e08dd3-6216-41ad-a2f4-42587eb14cf1",
       "title": "US003 (Student)",
       "description": "As a Student, I want to receive notifications for upcoming events I registered for, so that I don’t miss them.\nAcceptance Criteria:\n- Notification is sent 24 hours before event.\n- Notification includes event name, time, and location.\n- Student can enable/disable notifications.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "69daec30-bbe1-4cce-8baa-9e915a37aa1e",
+      "title": "US004 (Administrator/Staff)",
+      "description": "As an Administrator, I want to create and edit campus event details, so that students always see accurate information.\nAcceptance Criteria:\n- Admin can add new events with title, date, time, and location.\n- Admin can edit existing event details.\n- Changes are reflected immediately in student view.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
