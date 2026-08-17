@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T06:36:22.922Z",
+  "savedAt": "2026-08-17T06:38:12.633Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -52,6 +52,16 @@
       "id": "574bdba2-f5e0-42bb-86de-59081df04163",
       "title": "US004 (Administrator/Staff)",
       "description": "As an Administrator, I want to override a student’s course selection, so that I can enforce institutional requirements.\nAcceptance Criteria:\n- Admin can view a student’s current schedule.\n- Admin can replace or remove a course.\n- The system logs the override action with timestamp and admin ID.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "92e35c68-31b5-491c-857b-4a64a31b0ffd",
+      "title": "US005 (Student)",
+      "description": "As a Student, I want to receive notifications when a course I added becomes full, so that I can adjust my schedule promptly.\nAcceptance Criteria:\n- The system sends a notification when enrollment reaches capacity.\n- Notification includes course name and code.\n- Student can choose to remove the course or stay on the waitlist.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
