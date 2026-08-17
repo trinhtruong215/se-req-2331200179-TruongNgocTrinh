@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T06:17:03.799Z",
+  "savedAt": "2026-08-17T06:17:35.003Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "Requirement: “The kitchen needs a screen that shows orders as they come in.”\nWhy vague: The requirement does not specify how detailed the order display should be. It is unclear whether the screen must show only item names, preparation instructions, or customer details. Without clarification, developers cannot design the kitchen interface properly.\n",
     "ambiguity2": "Requirement: “The app should send push notifications to students at 11:30 AM offering them a discount on the daily special.” Why vague: The requirement does not define how discounts are calculated or applied. It is unclear whether the discount is a fixed percentage, a fixed amount, or varies by item. Without clarification, developers cannot implement the notification and pricing logic correctly.\n",
-    "conflictSolution": "",
+    "conflictSolution": "Conflict: The Cafeteria Manager wants mobile ordering to reduce queues, but the IT Infrastructure Team highlights unreliable Wi-Fi in the basement, which could disrupt the kitchen display system.\nResolution: The app will support offline caching for at least 10 minutes. Orders placed during outages will be stored locally and synced once the connection is restored. This ensures mobile ordering works smoothly while addressing infrastructure concerns.\n",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
