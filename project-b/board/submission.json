@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T07:08:51.478Z",
+  "savedAt": "2026-08-17T07:10:36.764Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -22,6 +22,16 @@
       "id": "bd25942d-3781-43a4-b1ba-32aed895bdf2",
       "title": "US001 (Student)",
       "description": "As a Student, I want to search for campus events by date, so that I can plan my schedule around them.\nAcceptance Criteria:\n- Student can filter events by specific date.\n- Results show only events on that date.\n- Search resets when filter is cleared.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "49584cd1-c09a-4f18-b773-3befe536cab0",
+      "title": "US002 (Student)",
+      "description": "As a Student, I want to bookmark favorite campus events, so that I can quickly access them later.\nAcceptance Criteria:\n- Student can mark/unmark events as favorites.\n- Favorites list is accessible from dashboard.\n- Removing a favorite updates the list immediately.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
