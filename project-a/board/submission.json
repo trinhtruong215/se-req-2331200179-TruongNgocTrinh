@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T06:38:12.633Z",
+  "savedAt": "2026-08-17T07:00:59.431Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -59,7 +59,7 @@
       "owner": ""
     },
     {
-      "id": "92e35c68-31b5-491c-857b-4a64a31b0ffd",
+      "id": "4f4ffc13-084a-466d-9eab-7a21f2f77ba1",
       "title": "US005 (Student)",
       "description": "As a Student, I want to receive notifications when a course I added becomes full, so that I can adjust my schedule promptly.\nAcceptance Criteria:\n- The system sends a notification when enrollment reaches capacity.\n- Notification includes course name and code.\n- Student can choose to remove the course or stay on the waitlist.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
@@ -70,11 +70,11 @@
     }
   ],
   "analysis": {
-    "ambiguity1": "Requirement: “The kitchen needs a screen that shows orders as they come in.”\nWhy vague: The requirement does not specify how detailed the order display should be. It is unclear whether the screen must show only item names, preparation instructions, or customer details. Without clarification, developers cannot design the kitchen interface properly.\n",
-    "ambiguity2": "Requirement: “The app should send push notifications to students at 11:30 AM offering them a discount on the daily special.” Why vague: The requirement does not define how discounts are calculated or applied. It is unclear whether the discount is a fixed percentage, a fixed amount, or varies by item. Without clarification, developers cannot implement the notification and pricing logic correctly.\n",
-    "conflictSolution": "Conflict: The Cafeteria Manager wants mobile ordering to reduce queues, but the IT Infrastructure Team highlights unreliable Wi-Fi in the basement, which could disrupt the kitchen display system.\nResolution: The app will support offline caching for at least 10 minutes. Orders placed during outages will be stored locally and synced once the connection is restored. This ensures mobile ordering works smoothly while addressing infrastructure concerns.\n",
-    "nfr1": "Usability: The menu filter must allow students with allergies to hide unsafe items completely, reducing stress and improving user experience.",
-    "nfr2": "Performance: The system must update the kitchen display within two seconds of receiving a new order.",
-    "nfr3": "Reliability: The kitchen display must continue to function offline for at least 10 minutes and sync seamlessly once the internet is restored."
+    "ambiguity1": "Requirement: “The system should allow advisors to override student choices.” Why vague: The requirement does not specify the scope of the override. Advisors might be able to change all of a student’s course selections or only certain ones. It is also unclear whether the system should record these overrides for accountability. Without clarification, developers cannot determine the exact scope of functionality to implement.",
+    "ambiguity2": "Requirement: “Drag and drop classes into a calendar to see if they fit.”  Why vague: The requirement does not clearly define what “fit” means. It could mean checking only for schedule conflicts, but it might also include verifying prerequisites, course availability, or other academic constraints. Without clarification, developers cannot determine the exact scope of functionality to implement.",
+    "conflictSolution": "There is a conflict between the Registrar and the Head of Advising. The Registrar requires that students cannot add full classes to their roadmap, while the Head of Advising wants students to plan courses years ahead even when availability is unknown. The resolution is to allow students to add future courses with a status label such as 'Availability unknown.' When live data is available, the system updates the status. If a course is full, the student cannot enroll in it, but it can remain in the roadmap for planning purposes.",
+    "nfr1": "Security: Protect student data and ensure privacy by preventing access to other students’ schedules and logging advisor overrides.",
+    "nfr2": "Performance/Scalability: Ensure real-time responsiveness when linking to the live database.",
+    "nfr3": "Usability: Provide an intuitive, user-friendly interface with drag-and-drop functionality for planning classes. and support long-term planning across multiple years."
   }
 }
