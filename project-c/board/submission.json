@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T07:23:48.774Z",
+  "savedAt": "2026-08-17T07:24:34.932Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -32,6 +32,16 @@
       "id": "5cceafac-6ce4-4876-a87f-5f6051f7c6f8",
       "title": "US002 (Chef/Staff)",
       "description": "As a Chef, I want to mark an item as Sold Out instantly, so that students stop ordering unavailable food.\nAcceptance Criteria:\n- Staff can mark items as unavailable in real time.\n- Changes are reflected immediately in student view.\n- System logs all updates with timestamp and staff ID.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "1cd6d489-c82b-489c-a144-b1b208fa7d04",
+      "title": "US003 (Student with Allergy)",
+      "description": "As a Student with a nut allergy, I want to filter the menu by allergens, so that I only see safe food options.\nAcceptance Criteria:\n- Student can select allergens to exclude (e.g., peanuts).\n- Items containing selected allergens are hidden.\n- Clearing filter shows all items again.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
