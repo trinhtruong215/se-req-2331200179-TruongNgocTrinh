@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T06:16:16.326Z",
+  "savedAt": "2026-08-17T06:17:03.799Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "Requirement: “The kitchen needs a screen that shows orders as they come in.”\nWhy vague: The requirement does not specify how detailed the order display should be. It is unclear whether the screen must show only item names, preparation instructions, or customer details. Without clarification, developers cannot design the kitchen interface properly.\n",
-    "ambiguity2": "",
+    "ambiguity2": "Requirement: “The app should send push notifications to students at 11:30 AM offering them a discount on the daily special.” Why vague: The requirement does not define how discounts are calculated or applied. It is unclear whether the discount is a fixed percentage, a fixed amount, or varies by item. Without clarification, developers cannot implement the notification and pricing logic correctly.\n",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
