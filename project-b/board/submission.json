@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-08-17T06:10:35.593Z",
+  "groups": [
+    {
+      "id": "91fde480-8906-4a67-a17f-be6098052199",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "b650c698-c862-4e98-859d-3496904ff963",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: “The app should force users to select a safe zone before they can chat.” Why vague: The requirement does not specify what qualifies as a safe zone. It is unclear whether only official campus locations are allowed, whether zones can be updated dynamically, or if students can propose new ones. Without clarification, developers cannot determine how to enforce this restriction.\n",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
