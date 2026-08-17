@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T06:31:06.208Z",
+  "savedAt": "2026-08-17T06:35:18.778Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -32,6 +32,16 @@
       "id": "39fc4dbd-ace8-4f92-a1e5-5572340f0e29",
       "title": "US002 (Student)",
       "description": "As a Student, I want to drag and drop courses into my calendar, so that I can visualize my weekly schedule.\n\nAcceptance Criteria:\n- Dragging a course into the calendar displays its time slot.\n- If a conflict exists, the system highlights the overlap in red.\n- Removing a course from the calendar clears its time slot.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "827acb5c-7f48-4947-82ad-3c12439e1c9e",
+      "title": "US003 (Student)",
+      "description": "As a Student, I want to filter courses by prerequisites, so that I only see classes I am eligible to enroll in.\nAcceptance Criteria:\n-Filter option hides courses where prerequisites are not met.\n-Eligible courses remain visible.\n-The filter can be toggled on or off.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
