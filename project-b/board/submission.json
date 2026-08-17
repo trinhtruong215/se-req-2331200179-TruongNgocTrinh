@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T07:12:10.000Z",
+  "savedAt": "2026-08-17T07:12:45.901Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -52,6 +52,16 @@
       "id": "69daec30-bbe1-4cce-8baa-9e915a37aa1e",
       "title": "US004 (Administrator/Staff)",
       "description": "As an Administrator, I want to create and edit campus event details, so that students always see accurate information.\nAcceptance Criteria:\n- Admin can add new events with title, date, time, and location.\n- Admin can edit existing event details.\n- Changes are reflected immediately in student view.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "3beb5a7e-c601-42a5-ae2f-ad2504b12344",
+      "title": "US005 (Student)",
+      "description": "As a Student, I want to filter events by category (sports, academic, social), so that I can find events that interest me.\nAcceptance Criteria:\n- Student can select one or more categories.\n- Only events matching selected categories are shown.\n- Clearing filter shows all events again.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
