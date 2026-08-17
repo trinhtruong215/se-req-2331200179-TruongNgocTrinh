@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-17T06:14:27.735Z",
+  "savedAt": "2026-08-17T07:08:51.478Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -17,10 +17,21 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "bd25942d-3781-43a4-b1ba-32aed895bdf2",
+      "title": "US001 (Student)",
+      "description": "As a Student, I want to search for campus events by date, so that I can plan my schedule around them.\nAcceptance Criteria:\n- Student can filter events by specific date.\n- Results show only events on that date.\n- Search resets when filter is cleared.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    }
+  ],
   "analysis": {
-    "ambiguity1": "Requirement: “The app should force users to select a safe zone before they can chat.” Why vague: The requirement does not specify what qualifies as a safe zone. It is unclear whether only official campus locations are allowed, whether zones can be updated dynamically, or if students can propose new ones. Without clarification, developers cannot determine how to enforce this restriction.\n",
-    "ambiguity2": "Requirement: “The app should allow barcode scanning to list textbooks.” Why vague: The requirement does not define the scope of barcode support. It is unclear whether the system must handle only ISBN barcodes, other formats, or international variations. It also does not specify how errors should be handled if a barcode is damaged or unrecognized. Without clarification, developers cannot design the scanning feature properly.\n",
+    "ambiguity1": "Requirement: “The app should force users to select a safe zone before they can chat.” Why vague: The requirement does not specify what qualifies as a safe zone. It is unclear whether only official campus locations are allowed, whether zones can be updated dynamically, or if students can propose new ones. Without clarification, developers cannot determine how to enforce this restriction.\\n",
+    "ambiguity2": "The app should allow barcode scanning to list textbooks.” Why vague: The requirement does not define the scope of barcode support. It is unclear whether the system must handle only ISBN barcodes, other formats, or international variations. It also does not specify how errors should be handled if a barcode is damaged or unrecognized. Without clarification, developers cannot design the scanning feature properly.\\n",
     "conflictSolution": "Conflict: The Student Union President wants the app to collect a 2% transaction fee to fund club activities, but the University Legal Team insists the app cannot process payments because the university is not a bank. Resolution: The app will not handle money directly. Instead, it will integrate a voluntary “support fee” option. After a transaction is completed via external methods (Venmo or cash), the app can prompt the buyer to contribute 2% to the Student Union fund through a separate donation link managed by the union. This preserves compliance with legal restrictions while still offering a way to generate funding.",
     "nfr1": "Security: Only users with a valid .edu email can create accounts, ensuring exclusivity and protecting the community from outside misuse.",
     "nfr2": "Safety: The app must enforce Safe Exchange Zones for physical meetups, reducing risks and improving trust among users.",
