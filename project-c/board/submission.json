@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T04:47:15.748Z",
+  "savedAt": "2026-08-18T04:48:43.708Z",
   "groups": [
     {
       "id": "91fde480-8906-4a67-a17f-be6098052199",
@@ -52,6 +52,16 @@
       "id": "88537ae7-ab59-4ed9-8dd7-c7b519937656",
       "title": "US004 (IT Infrastructure)",
       "description": "As IT Staff, I want the kitchen display system to work offline for at least 10 minutes, so that orders are not lost during Wi-Fi outages.\nAcceptance Criteria:\n- Kitchen display continues to show recent orders without internet.\n- Orders placed offline are queued locally.\n- System syncs automatically once connection is restored.",
+      "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "baf52982-53b0-45fd-b446-fdc4fb36c23c",
+      "title": "US005 (Marketing Dept)",
+      "description": "As Marketing Staff, I want to send push notifications at 11:30 AM with discounts on the daily special, so that more students buy lunch.\nAcceptance Criteria:\n- Notification is sent at scheduled time.\n- Message includes discount details and menu item.\n- Students can opt in/out of marketing notifications.",
       "groupId": "175b2870-5f3b-4ef4-affc-4a6b9529112f",
       "status": "todo",
       "type": "User Story",
